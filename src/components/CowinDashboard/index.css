@@ -1,0 +1,72 @@
+.app-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bg-container {
+  background-color: #161625;
+}
+
+.app-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img.logo-img {
+  margin-right: 15px;
+  width: 30px;
+}
+
+.app-logo {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #2cc6c6;
+}
+
+.app-heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.failure-img {
+  width: 500px;
+}
+
+.failure-text {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.cowin-coverage-container,
+.cowin-gender-container,
+.cowin-age-container {
+  padding: 25px;
+  margin-bottom: 25px;
+  background-color: #1c1c2b;
+}
+
+.coverage-heading,
+.gender-heading,
+.age-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #a4b7da;
+}
